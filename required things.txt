@@ -1,0 +1,36 @@
+https://local.drizzle.studio
+http://localhost:5173/
+npm run dev
+npm run db:push
+npm run db:studio
+
+
+
+update when the app is ready 
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /{allPaths=**} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}
+
+.env keys
+VITE_CLERK_PUBLISHABLE_KEY=pk_test_ZGFybGluZy1vd2wtNy5jbGVyay5hY2NvdW50cy5kZXYk
+
+VITE_DRIZZLE_DATABASE_URL=postgresql://neondb_owner:npg_7ZCIvTcDQ8mJ@ep-purple-moon-a1hekcl3-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require
+
+VITE_FIREBASE_API_KEY=AIzaSyAtP2HzNFPJ254re3XTF2G9HGF6-5GLbKs
+
+authentication dashboard link: https://dashboard.clerk.com/apps/app_2v7uNvPq8QYUt2zzGbpEqrNIqct/instances/ins_2v7uNro6tk2AUjcQFuetHKDC7nC/users/user_2v8FPK9FXJQY7fKZFVFgx2YG4T6
+neon database: https://console.neon.tech/app/projects/winter-feather-55576160?database=neondb
+drizzle database studio: https://local.drizzle.studio/
+firebase project storage contacts: https://console.firebase.google.com/project/contacts-57d69/storage/contacts-57d69.firebasestorage.app/files/~2FBorrowly
+project link: http://localhost:5173/
+
+alert dialog 
+drizzle team docs - access your datadelete 
+
+sql reset:
+ALTER SEQUENCE "itemListing_id_seq" RESTART WITH 1;
+ALTER SEQUENCE "itemImages_id_seq" RESTART WITH 1

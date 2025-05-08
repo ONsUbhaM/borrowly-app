@@ -1,0 +1,78 @@
+{
+    "itemDetails": [
+        {
+            "label": "Listing Title",
+            "name": "listingTitle",
+            "fieldType": "text",
+            "required": true,
+            "column": 2,
+            "icon": "FaClipboardList"
+        },
+        {
+            "label":"Tagline",
+            "name": "tagline",
+            "fieldType": "text",
+            "column": 2,
+            "icon": "FaTag"
+        },
+        {
+            "label":"Rental Price",
+            "name": "rentalprice",
+            "fieldType": "text",
+            "required": true,
+            "column": 1,
+            "icon": "FaMoneyBillAlt"
+        },
+        {
+            "label":"Catagory",
+            "name": "catagory",
+            "fieldType": "dropdown",
+            "options":["Cycle", "Helmet", "Powerbank", "Headphone", "Chair", "Dumbles", "Watch", "Laptop", "Kitchen"],
+            "required": true,
+            "column": 1,
+            "icon": "FaCar"
+        },
+        {
+            "label":"Condition",
+            "name": "condition",
+            "fieldType": "dropdown",
+            "options":["New", "Used", "Cerfied Pre-owned"],
+            "required":true,
+            "column": 1,
+            "icon": "FaCheckCircle"
+        },
+        {
+            "label":"Year",
+            "name": "year",
+            "fieldType": "number",
+            "required":true,
+            "column": 1,
+            "icon": "FaCalenderAlt"   
+        },
+        {
+            "label":"Color",
+            "name": "color",
+            "fieldType": "dropdown",
+            "required":true,
+            "options": ["Red", "Green", "Blue", "White", "Black", "Yellow", "Purple"],
+            "column": 2,
+            "icon": "FaCarSide"   
+        },
+        {
+            "label":"Offer Type",
+            "name": "offerType",
+            "fieldType": "dropdown",
+            "options": ["Buy", "Hot Offer", "Sell", "Urgent"],
+            "column": 2,
+            "icon": "FaTags"   
+        },
+        {
+            "label":"Listing Description",
+            "name": "listingDescription",
+            "fieldType": "textarea",
+            "required": true,
+            "column": 2,
+            "icon": "FaFileAlt"   
+        }
+    ]
+}
