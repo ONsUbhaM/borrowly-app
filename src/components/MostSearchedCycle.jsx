@@ -36,7 +36,7 @@ function MostSearchedItem() {
   return (
     <div className="mx-24">
       <h2 className="font-bold text-3xl text-center mt-16 mb-7">
-        Most Searched Cycle
+        Most Searched Item
       </h2>
       <Carousel >
         <CarouselContent>
