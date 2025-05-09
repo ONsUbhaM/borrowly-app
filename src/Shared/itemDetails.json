@@ -36,7 +36,7 @@
             "label":"Condition",
             "name": "condition",
             "fieldType": "dropdown",
-            "options":["New", "Used", "Cerfied Pre-owned"],
+            "options":["New", "Used", "Certified-Pre-owned"],
             "required":true,
             "column": 1,
             "icon": "FaCheckCircle"

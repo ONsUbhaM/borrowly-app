@@ -1,18 +1,42 @@
 
 
-
-const ItemBrand = [
+"Cycle", "Helmet", "Powerbank", "Headphone", "Chair", "Dumbles", "Watch", "Laptop", "Kitchen"
+const Item = [
     {
         id:1,
-        name:'Hero'
+        name:'Cycle'
     },
     {
         id:2,
-        name:'Mivi'
+        name:'Helmet'
     },
     {
         id:3,
-        name:'Noise'
+        name:'Powerbank'
+    },
+    {
+        id:4,
+        name:'Headphone'
+    },
+    {
+        id:5,
+        name:'Chair'
+    },
+    {
+        id:6,
+        name:'Dumbles'
+    },
+    {
+        id:7,
+        name:'Watch'
+    },
+    {
+        id:8,
+        name:'Laptop'
+    },
+    {
+        id:9,
+        name:'Kitchen'
     },
 ]
 
@@ -79,4 +103,4 @@ const Catagory = [
     },
 ]
 
-export default {ItemBrand, Catagory, Pricing}
+export default {Item, Catagory, Pricing}
