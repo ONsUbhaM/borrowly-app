@@ -21,6 +21,7 @@ import { FaDoorClosed } from "react-icons/fa";
 import { FaIdCard } from "react-icons/fa";
 import { FaTags } from "react-icons/fa";
 import { FaFileAlt } from "react-icons/fa";
+import { FaAddressCard } from "react-icons/fa";
 
 const iconMap = {
   FaClipboardList: <FaClipboardList />,
@@ -44,6 +45,7 @@ const iconMap = {
   FaIdCard: <FaIdCard />,
   FaTags: <FaTags />,
   FaFileAlt: <FaFileAlt />,
+  FaAddressCard: <FaAddressCard />
 };
 
 function IconField({icon}) {

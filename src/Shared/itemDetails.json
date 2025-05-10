@@ -73,6 +73,14 @@
             "required": true,
             "column": 2,
             "icon": "FaFileAlt"   
+        },
+        {
+            "label":"Address",
+            "name": "address",
+            "fieldType": "textarea",
+            "required": true,
+            "column": 2,
+            "icon": "FaAddressCard"   
         }
     ]
 }

@@ -15,6 +15,7 @@ export const ItemListing = pgTable("itemListing", {
   userImageUrl: varchar("userImageUrl").default('https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg'),
   color: varchar("color").notNull(),
   postedOn: varchar("postedOn"),
+  address: varchar("address").notNull()
 });
 
 export const ItemImages = pgTable("itemImages", {
