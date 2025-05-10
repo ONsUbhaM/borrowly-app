@@ -40,21 +40,6 @@ const Item = [
     },
 ]
 
-const Pricing = [
-    {
-        id:1,
-        amount:'1000'
-    },
-    {
-        id:2,
-        amount:'2000'
-    },
-    {
-        id:3,
-        amount:'3000'
-    }
-]
-
 const Catagory = [
     {
         id:1,
@@ -103,4 +88,4 @@ const Catagory = [
     },
 ]
 
-export default {Item, Catagory, Pricing}
+export default {Item, Catagory}

@@ -11,6 +11,9 @@ export const ItemListing = pgTable("itemListing", {
   offerType: varchar("offerType"),
   listingDescription: varchar("listingDescription").notNull(),
   createdBy: varchar("createdBy").notNull(),
+  userName: varchar("userName").notNull().default('Debarpan'),
+  userImageUrl: varchar("userImageUrl").default('https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg'),
+  color: varchar("color").notNull(),
   postedOn: varchar("postedOn"),
 });
 

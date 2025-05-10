@@ -50,6 +50,13 @@
   --sidebar-ring: oklch(0.708 0 0);
 }
 
+.disney-style {
+  font-family: "Pacifico", cursive;
+  fill: #0d9488; /* Tailwind's teal-600 */
+  color: #0d9488;
+  font-weight: bold;
+  font-size: 24px;
+}
 
 a {
   font-weight: 500;

@@ -42,7 +42,7 @@ function CycleItem({ car }) {
         </div>
         <Separator className="my-2" />
         <div className=" flex items-center justify-between">
-          <h2 className="font-bold text-xl">${car?.rentalprice}</h2>
+          <h2 className="font-bold text-xl">₹{car?.rentalprice}</h2>
           <h2 className="text-blue-700 text-sm flex gap-2 items-center">
             View Details <IoIosOpen className="text-blue-700" />
           </h2>

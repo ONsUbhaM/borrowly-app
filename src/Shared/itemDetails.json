@@ -16,7 +16,7 @@
             "icon": "FaTag"
         },
         {
-            "label":"Rental Price",
+            "label":"Rental Price for 1 month",
             "name": "rentalprice",
             "fieldType": "text",
             "required": true,
